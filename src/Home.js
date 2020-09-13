@@ -3,6 +3,7 @@ import "./Home.css";
 import UpTime from "./UpTime";
 import { Link } from "react-router-dom";
 import { greet } from "./About";
+import Card from "./Card";
 
 const name = "bishu";
 const img1 = "https://picsum.photos/250/300";
@@ -24,6 +25,13 @@ const Home = () => {
         <Link to="About">
           <img src={img4} alt="randomImages" />
         </Link>
+        <Card 
+        id="5"
+        sname="Bishu"
+        img= "https://vignette.wikia.nocookie.net/dark-netflix/images/d/dc/DARK_Season_2_Poster_-_English.jpg/revision/latest?cb=20190607155817"
+        link="https://www.sainotech.com"
+        title="Hero"
+        />
       </div>
     </div>
   );

@@ -82,9 +82,12 @@ button {
 }
 
 @media (max-width: 768) {
-  .card {
+  .cards {
     float: none;
     margin: 5%;
     width: 90%;
+    display: flex;
+    flex-flow: column;
+    
   }
 }
